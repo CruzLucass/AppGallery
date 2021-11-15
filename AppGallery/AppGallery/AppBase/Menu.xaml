@@ -33,6 +33,30 @@
                     Text="Modal"        
                     Clicked="AbrirPaginaModal"
                         />
+
+
+                <Label Text="Layouts"/>
+                <Button 
+                    Text="StackLayout"   
+                    Clicked="AbrirStackLayout"
+                        />
+                <Button
+                    Text="Grid"
+                    Clicked="Abrirgrid"
+                    />
+                <Button
+                    Text="Absoulte"
+                    Clicked="AbrirAbsolutLayout"
+                    />
+                <Button
+                    Text="Relative"
+                    Clicked="AbrirRelativeLayout"
+                    />
+                <Button
+                    Text="Flexivel"
+                    Clicked="AbrirFlexLayout"
+                    />
+
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Leioutes.FlexivelLayout.Flexivel">
+    
+    <ContentPage.Content>
+        <FlexLayout Direction="Column">
+            <FlexLayout 
+                FlexLayout.Grow="1"
+                Direction="Column"
+                AlignItems="Stretch"
+                JustifyContent="Start"
+                BackgroundColor="#FFC5C5"
+                >
+                <Label 
+                    FlexLayout.Order="1"
+                    FlexLayout.AlignSelf="Center"
+                    Text="Linha 01"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    Padding="10"
+                    />
+
+                <Label 
+                    FlexLayout.Basis="30%"
+                    FlexLayout.Order="0"
+                    Text="Linha 02"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    Padding="10"
+                    />
+
+                <Label 
+                    FlexLayout.Order="2"
+                    Text="Linha 03"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    Padding="10"
+                    />
+            </FlexLayout>
+
+            <FlexLayout
+                FlexLayout.Grow="1"
+                Direction="Row"
+                BackgroundColor="#8FD1FF"
+                AlignItems="Start"
+                Wrap="NoWrap"
+                >
+                <Label
+                    FlexLayout.Shrink="0"
+                    Text="Coluna 01"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    Padding="10"
+                    />
+                <Label
+                    Text="Coluna 02"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    Padding="10"
+                    />
+                <Label
+                    Text="Coluna 03"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    Padding="10"
+                    /> 
+                <Label
+                    Text="Coluna 04"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    Padding="10"
+                    /> 
+                <Label
+                    Text="Coluna 05"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    Padding="10"
+                    />               
+                
+            </FlexLayout>
+
+            <FlexLayout
+                FlexLayout.Grow="1"
+                Direction="Row"
+                BackgroundColor="#8CFFD0"
+                AlignItems="Start"
+                Wrap="Reverse"
+                AlignContent="End"
+                JustifyContent="Center"
+                >
+
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                <BoxView 
+                    BackgroundColor="Black"
+                    Margin="1"
+                    />
+                    
+
+            </FlexLayout>
+            
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>
