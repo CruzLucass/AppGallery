@@ -83,5 +83,11 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leioutes.FlexivelLayout.Flexivel();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirScrollView(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leioutes.BarraDeRolagemLayout.BarraDeRolagem();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
